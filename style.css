@@ -1,0 +1,162 @@
+body{
+    margin: 0px;
+    text-align: center;
+    
+}
+.top-container{
+    position: relative;
+    padding-top: 100px;
+    background-color: #89ddcd;
+}
+.top-cloud{
+    position: absolute;
+    right: 300px;
+    top: 50px;
+
+}
+.title-text{
+    margin: 50px auto 0 auto;
+    font-family: sacramento,cursive;
+    font-size: 40px;
+    
+    color:#005ab9;
+}
+h2{
+    font-family: "Montserrat", sans-serif;
+}
+.bottom-cloud{
+    position: absolute;
+    right: 730px;
+    bottom: 330px;
+}
+.middle-container{
+    margin: 100px 0;
+    padding: 20px;
+}
+.profile-pic{
+    border-radius: 50%;
+}
+h3{
+    color: #66bfbf;
+    font-family: "Montserrat", sans-serif;
+    font-size: 2.5rem;
+    font-weight: normal;
+    padding-bottom: 10px;
+    font-weight: bolder;
+
+}
+.intro{
+    font-size: larger;
+}
+hr{
+    border-top: 8px dotted rebeccapurple;
+    width: 10%;
+}
+h4{
+    margin-top: 50px;
+    font-size: 2.5rem;
+    color: #66bfbf;
+    font-family: "Montserrat", sans-serif;
+    text-decoration: underline;
+}
+.parent{
+    display: flex;
+    flex-direction: row;
+    padding: 35px;
+    margin: auto;
+
+    
+}
+h5{
+    font-size: x-large;
+    color: #66bfbf;
+
+}
+p{
+    font-size: larger;
+    margin-left: 32px;
+}
+.html{
+    margin-top: -24px;
+    margin-left: -34px;
+}
+h6{
+    margin-top: 23px;
+    margin-left: -15px;
+    font-size: xx-large;
+    color: #66bfbf;
+    
+}
+.btn{
+    background-color:#66bfbf;
+    text-decoration: none;
+    color: white;
+    font-size: xx-large;
+    padding: 6px;
+    border-radius: 14px;
+    margin-left: -27px;
+    letter-spacing: 1px
+}
+.btn:hover{
+    background-color:blueviolet;
+    
+}
+.bottom-container{
+    background-color:#66bfbf;
+    padding: 50px 0 50px;
+    margin-top: 40px;
+}
+.footer-link{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-decoration: none;
+    font-size: x-large;
+    padding: 15px;
+    letter-spacing: 1px;
+}
+.skills{
+    border: 11px double #66bfbf;
+    max-width: 740px;
+    margin: 42px auto;
+}
+.footer-link:hover{
+    color: #f46aa1;
+}
+
+
+i:hover{
+    font-size: xx-large;
+}
+.web{
+    font-style: italic;
+    text-decoration: underline white;
+}
+
+@media (max-width:700px) {
+    .gif1{
+        width: 100%;
+    }
+    .html{
+        width: 100%;
+    }
+    .mountain{
+        width: 100%;
+    }
+    h2{
+        font-size: x-large;
+    }
+    .parent{
+        flex-direction: column;
+    }
+    .top-cloud{
+        right: 45px;
+        top: 41px;
+    }
+    .bottom-cloud{
+        right: 207px;
+        bottom: 188px;
+    }
+
+    
+}
+    
